@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, violet, skyblue );
+}
+p{
+    font-size: large;
+    font-family: fantasy;
+    color: blue;
+}
+button{
+    color: chartreuse;
+    background-color: black;
+}
+input{
+    color: chartreuse;
+}
+nav{
+    background-color: black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    background-color: black;
+}
