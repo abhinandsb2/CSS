@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        input:checked{
-           color: brown;
-           outline: 2px solid salmon;
+        #checkbox:checked + label{
+            color: red;
+            font-weight: bolder;
+            font-family: fantasy;
         }
     </style>
 </head>
 <body>
-    <input type="checkbox" id="check"> <br>
-    <input type="checkbox" id="check">
-    <label for="checkbox">Subscribe</label>
+    <h2>Checked</h2>
+    <input type="checkbox" id="checkbox"> 
+    <label for="checkbox">Subscribe US</label>
 </body>
 </html>
