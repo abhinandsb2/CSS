@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.5rem;
+    color: black;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.con-us{
+    background-color: rgb(14, 64, 27);
+    color: white;
+    border: none;
+    border: 1px solid black;
+}
+
+.container{
+    height: 500px;
+    background: url(https://static.vecteezy.com/system/resources/previews/011/115/295/non_2x/financial-business-statistics-with-bar-graph-and-candlestick-chart-show-stock-market-price-and-currency-exchange-on-dark-green-background-vector.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+p{
+    margin-top: 10px;
+    color: white;
+    padding-left: 100px;
+    font-size: xx-small;
+}
+
+.touch{
+    margin-top: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+    font-size: xx-small;
+    padding: 7px;
+    font-weight: 800;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.description{
+    font-size: 20px;
+    color: black;
+    margin-top: 5px;
+}
+
+.img-dis{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*responsive small device*/
+
+@media (max-width: 480px){
+
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 0..5re;
+    padding-top: 5px;
+}
+
+.con-us{
+    background-color: rgb(14, 64, 27);
+    color: white;
+    font-size: 0.5rem;
+    padding-top: 5px;
+    height: 14px;
+}
+
+.container{
+    height: 500px;
+    background: url(https://static.vecteezy.com/system/resources/previews/011/115/295/non_2x/financial-business-statistics-with-bar-graph-and-candlestick-chart-show-stock-market-price-and-currency-exchange-on-dark-green-background-vector.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+p{
+    margin-top: 10px;
+    color: white;
+    padding-left: 100px;
+    font-size: xx-small;
+}
+
+.touch{
+    margin-top: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+    font-size: xx-small;
+    padding: 7px;
+    font-weight: 800;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.description{
+    font-size: 10px;
+    color: black;
+    margin-top: 5px;
+}
+
+.img-dis{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: small;
+}
+
+}
+
+/*medium device*/
+
+@media(min-width: 481px) and (max-width: 768px){
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: small;
+}
+
+.con-us{
+    background-color: rgb(14, 64, 27);
+    color: white;
+    font-size: xx-small bold;
+}
+
+.container{
+    height: 650px;
+    background: url(https://static.vecteezy.com/system/resources/previews/011/115/295/non_2x/financial-business-statistics-with-bar-graph-and-candlestick-chart-show-stock-market-price-and-currency-exchange-on-dark-green-background-vector.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+p{
+    margin-top: 10px;
+    color: white;
+    padding-left: 100px;
+    font-size: xx-small;
+}
+
+.touch{
+    margin-top: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+    font-size: xx-small;
+    padding: 7px;
+    font-weight: 800;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.description{
+    font-size: 20px;
+    color: black;
+    margin-top: 5px;
+}
+
+.img-dis{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: small;
+}
+
+}
