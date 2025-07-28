@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            background-color: aqua;
+            padding: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+        /*applies only when viewed on a screen*/
+        @media screen and (max-width:600px){
+            .content{
+                background: linear-gradient(to right, orange, yellow, orangered, red);
+                font-size: 16px;
+                color: black;
+            }
+        }
+        /*applies when we select print*/
+        @media print{
+            .content{
+                color: red;
+                font-size: larger;
+                font-family: cursive;
+                border: 3px solid greenyellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        SCREEN AND PRINT
+    </div>
+</body>
+</html>
